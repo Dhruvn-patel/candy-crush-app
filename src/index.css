@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-image: url("./assets/images/background1.jpg");
+    background-size: cover;
+
+}
+
+@layer utilities {
+    .custom-box-shadow {
+        box-shadow: inset 5px 5px 15px #062525, inset -5px -5px 15px #aaaab7bb;
+    }
+}
